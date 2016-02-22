@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		@keyframes slidy { 
+		    0%   {left: 0px;}
+		    25%  {left: 500px;}
+		    75%  {left: 150px}
+		    100% {left: 100px;}
+		 }
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+	</style>
+</head>
+<body>
+<div id="slider">
+<figure>
+<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+</figure>
+</div>
+</body>
+</html>
